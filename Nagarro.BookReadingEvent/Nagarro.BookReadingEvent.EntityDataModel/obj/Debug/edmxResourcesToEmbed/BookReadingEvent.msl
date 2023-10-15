@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BookReadingEventModelStoreContainer" CdmEntityContainer="BookReadingEventEntities">
+    <EntitySetMapping Name="Addresses">
+      <EntityTypeMapping TypeName="IsTypeOf(BookReadingEventModel.Address)">
+        <MappingFragment StoreEntitySet="Addresses">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Venue" ColumnName="Venue" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="State" ColumnName="State" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Addresses1">
+      <EntityTypeMapping TypeName="IsTypeOf(BookReadingEventModel.Address1)">
+        <MappingFragment StoreEntitySet="Addresses1">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BookingEnrollments">
+      <EntityTypeMapping TypeName="IsTypeOf(BookReadingEventModel.BookingEnrollment)">
+        <MappingFragment StoreEntitySet="BookingEnrollments">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="EventsId" ColumnName="EventsId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Comments">
+      <EntityTypeMapping TypeName="IsTypeOf(BookReadingEventModel.Comment)">
+        <MappingFragment StoreEntitySet="Comments">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Comment1" ColumnName="Comment1" />
+          <ScalarProperty Name="DatePosted" ColumnName="DatePosted" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="EventId" ColumnName="EventId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Comments1">
+      <EntityTypeMapping TypeName="IsTypeOf(BookReadingEventModel.Comment1)">
+        <MappingFragment StoreEntitySet="Comments1">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Comment11" ColumnName="Comment11" />
+          <ScalarProperty Name="DatePosted" ColumnName="DatePosted" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="EventId" ColumnName="EventId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Events">
+      <EntityTypeMapping TypeName="IsTypeOf(BookReadingEventModel.Event)">
+        <MappingFragment StoreEntitySet="Events">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="AddressId" ColumnName="AddressId" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="StartTime" ColumnName="StartTime" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Duration" ColumnName="Duration" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="OtherDetails" ColumnName="OtherDetails" />
+          <ScalarProperty Name="Invitations" ColumnName="Invitations" />
+          <ScalarProperty Name="Creator" ColumnName="Creator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Events1">
+      <EntityTypeMapping TypeName="IsTypeOf(BookReadingEventModel.Event1)">
+        <MappingFragment StoreEntitySet="Events1">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="AddressId" ColumnName="AddressId" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="StartTime" ColumnName="StartTime" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Duration" ColumnName="Duration" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="OtherDetails" ColumnName="OtherDetails" />
+          <ScalarProperty Name="Invitations" ColumnName="Invitations" />
+          <ScalarProperty Name="Creator" ColumnName="Creator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="IsTypeOf(BookReadingEventModel.User)">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

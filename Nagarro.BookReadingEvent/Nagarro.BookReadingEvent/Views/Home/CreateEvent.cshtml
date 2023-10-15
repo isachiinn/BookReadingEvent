@@ -1,0 +1,161 @@
+﻿@model Nagarro.BookReadingEvent.Shared.EventDTO
+
+@{ ViewBag.Title = "CreateEvent"; }
+
+<h2>Create Event</h2>
+<h3>@ViewBag.IsSuccess</h3>
+@using (Html.BeginForm())
+{
+@Html.AntiForgeryToken() if (User.Identity.IsAuthenticated)
+                {
+<div class="row">
+    <div class="form-horizontal col-md-6">
+        <h4>Event Details</h4>
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.LabelFor(model => model.Title, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Title, new { htmlAttributes = new { @class = "form-control", required = "required", placeholder = "Event Title" } })
+                @Html.ValidationMessageFor(model => model.Title, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Type, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                <select class="form-control" name="Type" id="Type">
+                    <option selected>public</option>
+                    <option>private</option>
+                </select>
+
+                @Html.ValidationMessageFor(model => model.Type, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Date, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Date, new { htmlAttributes = new { @class = "form-control", required = "required" } })
+                @Html.ValidationMessageFor(model => model.Date, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.StartTime, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.StartTime, new { htmlAttributes = new { @class = "form-control", required = "required" } })
+                @Html.ValidationMessageFor(model => model.StartTime, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Duration, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Duration, new { htmlAttributes = new { @class = "form-control", required = "required", placeholder = "0-4" } })
+                @Html.ValidationMessageFor(model => model.Duration, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Invitations, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Invitations, new { htmlAttributes = new { @class = "form-control", placeholder = "Write emails separated by comma" } })
+                @Html.ValidationMessageFor(model => model.Invitations, "Write emails separated by comma", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Description, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Description, new { htmlAttributes = new { @class = "form-control", placeholder = "Event Description" } })
+                @Html.ValidationMessageFor(model => model.Description, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.OtherDetails, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.OtherDetails, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.OtherDetails, "", new { @class = "text-danger" })
+            </div>
+        </div>
+    </div>
+    <div class="form-horizontal col-md-6">
+        <h4>Event Address Details</h4>
+        <div class="form-group">
+            @Html.LabelFor(model => model.Address.Venue, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Address.Venue, new { htmlAttributes = new { @class = "form-control", required = "required", placeholder = "Event Venue" } })
+                @Html.ValidationMessageFor(model => model.Address.Venue, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Address.City, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Address.City, new { htmlAttributes = new { @class = "form-control", required = "required", placeholder = "Event Address" } })
+                @Html.ValidationMessageFor(model => model.Address.City, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Address.State, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Address.State, new { htmlAttributes = new { @class = "form-control", required = "required", placeholder = "Event State" } })
+                @Html.ValidationMessageFor(model => model.Address.State, "", new { @class = "text-danger" })
+            </div>
+        </div>
+         @if("ViewBag.IsSuccess"!=null){
+        <script type="text/javascript">
+        window.onload = function () {
+            alert("@ViewBag.IsSuccess");
+        }
+        </script>
+        }
+
+
+    </div>
+</div> 
+}
+
+ else
+  {
+   <h3>Please login first</h3> }
+    <div class="form-group">
+    <div>
+        <input type="submit" value="Create" class="btn btn-primary btn-large" />
+        @Html.ActionLink("Back to Home Page", "Index", null, new { @class = "btn btn-primary btn-large" })
+    </div>
+
+</div>}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

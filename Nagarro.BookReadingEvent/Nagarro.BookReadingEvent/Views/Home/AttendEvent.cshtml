@@ -1,0 +1,101 @@
+﻿@model Nagarro.BookReadingEvent.Shared.BookingEnrollmentDTO
+
+<div>
+    <h4>BookingEnrollmentDTO</h4>
+    <h4>@ViewBag.IsSuccess</h4>
+
+    <dl class="dl-horizontal">
+        <dt>
+            Your Booking UserId
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Username)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Event.Title)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Event.Title)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Event.Date)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Event.Date)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Event.Address.Venue)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Event.Address.Venue)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Event.Address.City)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Event.Address.City)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Event.Address.State)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Event.Address.State)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Event.StartTime)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Event.StartTime)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Event.Duration)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Event.Duration)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Event.Description)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Event.Description)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Event.OtherDetails)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Event.OtherDetails)
+        </dd>
+    </dl>
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        @Html.HiddenFor(model => model.Id)
+        @Html.HiddenFor(model => model.EventsId)
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Confirm Booking" class="btn-primary btn-large" /> |
+            @Html.ActionLink("Back to List", "MyEvents")
+        </div>
+    }
+</div>
+
+

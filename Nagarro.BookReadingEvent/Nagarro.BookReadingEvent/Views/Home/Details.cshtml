@@ -1,0 +1,124 @@
+﻿@model Nagarro.BookReadingEvent.Shared.EventDTO
+@using Microsoft.AspNet.Identity;
+@{ ViewBag.Title = "Details"; }
+
+<h2>Details</h2>
+<div class="row">
+    <div class="col-md-6">
+
+        <table class="table table-bordered table-responsive table-hover table-condensed">
+            <tr>
+                <th class="warning">@Html.DisplayNameFor(model => model.Title)</th>
+                <td class="info">
+                    @Html.DisplayFor(model => model.Title)
+                </td>
+            </tr>
+            <tr>
+                <th class="warning">
+                    @Html.DisplayNameFor(model => model.Address.Venue)
+                </th>
+
+                <td class="info">
+                    @Html.DisplayFor(model => model.Address.Venue)
+                </td>
+            </tr>
+            <tr>
+
+                <th class="warning">
+                    @Html.DisplayNameFor(model => model.Address.City)
+                </th>
+
+                <td class="info">
+                    @Html.DisplayFor(model => model.Address.City)
+                </td>
+            </tr>
+            <tr>
+
+                <th class="warning">
+                    @Html.DisplayNameFor(model => model.Address.State)
+                </th>
+
+                <td class="info">
+                    @Html.DisplayFor(model => model.Address.State)
+                </td>
+            </tr>
+            <tr>
+
+                <th class="warning">
+                    @Html.DisplayNameFor(model => model.Type)
+                </th>
+
+                <td class="info">
+                    @Html.DisplayFor(model => model.Type)
+                </td>
+            </tr>
+            <tr>
+                <th class="warning">
+                    @Html.DisplayNameFor(model => model.Date)
+                </th>
+
+                <td class="info">
+                    @Html.DisplayFor(model => model.Date)
+                </td>
+            </tr>
+            <tr>
+                <th class="warning">
+                    @Html.DisplayNameFor(model => model.StartTime)
+                </th>
+
+                <td class="info">
+                    @Html.DisplayFor(model => model.StartTime)
+                </td>
+            </tr>
+            <tr>
+                <th class="warning">
+                    @Html.DisplayNameFor(model => model.Duration)
+                </th>
+
+                <td class="info">
+                    @Html.DisplayFor(model => model.Duration)
+                </td>
+            </tr>
+            <tr>
+                <th class="warning">
+                    People Invited
+                </th>
+
+
+                @if (Model.Invitations == null)
+                 {
+                    <td class="info"> 0 </td> 
+                 }
+                else
+                {
+                    <td class="info"> @Model.Invitations.Split(',').Length </td>
+                }
+            </tr>
+            <tr>
+                <th class="warning">
+                    @Html.DisplayNameFor(model => model.Description)
+                </th>
+
+                <td class="info">
+                    @Html.DisplayFor(model => model.Description)
+                </td>
+            </tr>
+            <tr>
+            </tr>
+        </table>
+
+        @if (User.Identity.IsAuthenticated)
+         {
+
+            <div>
+                @Html.Action("AddComment", "Home", new { EventId = Model.Id })
+                @Html.ActionLink("Back to My Events", "MyEvents", null, new { @class = "btn btn-primary btn-large" })
+            </div>
+         }
+    </div>
+    <div class="col-md-6">
+        @Html.Action("GetComments", "Home", new { EventId = Model.Id })
+    </div>
+</div>
+
+

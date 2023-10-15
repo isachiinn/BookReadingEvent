@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="29de3f2900a243f1a0573653f1f76f86" Name="Diagram1">
+        <EntityTypeShape EntityType="BookReadingEventModel.Address" Width="1.5" PointX="0.75" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookReadingEventModel.Address1" Width="1.5" PointX="0.75" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookReadingEventModel.BookingEnrollment" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookReadingEventModel.Comment" Width="1.5" PointX="5.25" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookReadingEventModel.Comment1" Width="1.5" PointX="5.25" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookReadingEventModel.Event" Width="1.5" PointX="3" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookReadingEventModel.Event1" Width="1.5" PointX="3" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookReadingEventModel.User" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="BookReadingEventModel.FK_Event_Address" ManuallyRouted="false" />
+        <AssociationConnector Association="BookReadingEventModel.FK_BookEvent_BookAddress" ManuallyRouted="false" />
+        <AssociationConnector Association="BookReadingEventModel.FK_BookingEnrollment_Event" ManuallyRouted="false" />
+        <AssociationConnector Association="BookReadingEventModel.FK_Comment_Event" ManuallyRouted="false" />
+        <AssociationConnector Association="BookReadingEventModel.FK_BookComment_BookEvent" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

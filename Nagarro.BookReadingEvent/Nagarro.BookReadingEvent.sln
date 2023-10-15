@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31313.79
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nagarro.BookReadingEvent", "Nagarro.BookReadingEvent\Nagarro.BookReadingEvent.csproj", "{B52074F6-C1A0-487E-9D94-1E641D3E04B2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Presentation", "1. Presentation", "{91ECB5EC-9773-4B74-8AAA-AFFCB41B3044}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Business Domain", "2. Business Domain", "{1635231B-5AD3-4FD2-BEF2-096281AFF637}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Data", "3. Data", "{22BBA0FE-F513-4553-953B-94BCDB1BE461}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Shared", "4. Shared", "{11547B18-8CF2-4E99-9AA4-A4A816C310F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nagarro.BookReadingEvent.Shared", "Nagarro.BookReadingEvent.Shared\Nagarro.BookReadingEvent.Shared.csproj", "{4CFC9508-89F9-47C7-B0CD-FD22BE3BCF2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nagarro.BookReadingEvent.Data", "Nagarro.BookReadingEvent.Data\Nagarro.BookReadingEvent.Data.csproj", "{713E0EE1-C558-48FF-8FC6-B2F08F26D606}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nagarro.BookReadingEvent.EntityDataModel", "Nagarro.BookReadingEvent.EntityDataModel\Nagarro.BookReadingEvent.EntityDataModel.csproj", "{08B27A0B-3F27-4D5D-9F13-B37A9978048E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nagarro.BookReadingEvent.Business", "Nagarro.BookReadingEvent.Business\Nagarro.BookReadingEvent.Business.csproj", "{513572D1-0EDD-4F66-AD25-715C95AA18AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nagarro.BookReadingEvent.BusinessFacades", "Nagarro.BookReadingEvent.BusinessFacades\Nagarro.BookReadingEvent.BusinessFacades.csproj", "{F1A8AC26-5967-4A1A-9126-B138C794D50C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nagarro.BookReadingEvent.Tests", "..\Nagarro.BookReadingEvent.Tests\Nagarro.BookReadingEvent.Tests.csproj", "{92B0929D-C194-4BE9-AF9C-012746F6A1D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{297097A4-37FA-4214-AF1A-1CCA09656A39}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B52074F6-C1A0-487E-9D94-1E641D3E04B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B52074F6-C1A0-487E-9D94-1E641D3E04B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B52074F6-C1A0-487E-9D94-1E641D3E04B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B52074F6-C1A0-487E-9D94-1E641D3E04B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CFC9508-89F9-47C7-B0CD-FD22BE3BCF2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CFC9508-89F9-47C7-B0CD-FD22BE3BCF2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CFC9508-89F9-47C7-B0CD-FD22BE3BCF2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CFC9508-89F9-47C7-B0CD-FD22BE3BCF2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{713E0EE1-C558-48FF-8FC6-B2F08F26D606}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{713E0EE1-C558-48FF-8FC6-B2F08F26D606}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{713E0EE1-C558-48FF-8FC6-B2F08F26D606}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{713E0EE1-C558-48FF-8FC6-B2F08F26D606}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08B27A0B-3F27-4D5D-9F13-B37A9978048E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08B27A0B-3F27-4D5D-9F13-B37A9978048E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08B27A0B-3F27-4D5D-9F13-B37A9978048E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08B27A0B-3F27-4D5D-9F13-B37A9978048E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{513572D1-0EDD-4F66-AD25-715C95AA18AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{513572D1-0EDD-4F66-AD25-715C95AA18AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{513572D1-0EDD-4F66-AD25-715C95AA18AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{513572D1-0EDD-4F66-AD25-715C95AA18AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1A8AC26-5967-4A1A-9126-B138C794D50C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1A8AC26-5967-4A1A-9126-B138C794D50C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1A8AC26-5967-4A1A-9126-B138C794D50C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1A8AC26-5967-4A1A-9126-B138C794D50C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92B0929D-C194-4BE9-AF9C-012746F6A1D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92B0929D-C194-4BE9-AF9C-012746F6A1D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92B0929D-C194-4BE9-AF9C-012746F6A1D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92B0929D-C194-4BE9-AF9C-012746F6A1D6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B52074F6-C1A0-487E-9D94-1E641D3E04B2} = {91ECB5EC-9773-4B74-8AAA-AFFCB41B3044}
+		{4CFC9508-89F9-47C7-B0CD-FD22BE3BCF2A} = {11547B18-8CF2-4E99-9AA4-A4A816C310F7}
+		{713E0EE1-C558-48FF-8FC6-B2F08F26D606} = {22BBA0FE-F513-4553-953B-94BCDB1BE461}
+		{08B27A0B-3F27-4D5D-9F13-B37A9978048E} = {22BBA0FE-F513-4553-953B-94BCDB1BE461}
+		{513572D1-0EDD-4F66-AD25-715C95AA18AE} = {1635231B-5AD3-4FD2-BEF2-096281AFF637}
+		{F1A8AC26-5967-4A1A-9126-B138C794D50C} = {1635231B-5AD3-4FD2-BEF2-096281AFF637}
+		{92B0929D-C194-4BE9-AF9C-012746F6A1D6} = {297097A4-37FA-4214-AF1A-1CCA09656A39}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7071BECB-76B0-474B-AEAF-72D456C2EA9C}
+	EndGlobalSection
+EndGlobal

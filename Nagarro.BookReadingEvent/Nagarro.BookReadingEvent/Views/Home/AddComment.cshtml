@@ -1,0 +1,39 @@
+﻿
+@model Nagarro.BookReadingEvent.Shared.CommentDTO
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+
+        @Html.HiddenFor(model => model.Id)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Comment1, "Comment", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Comment1, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Comment1, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <p>@ViewBag.IsSuccess</p>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Add Comment" class="btn btn-primary btn-large" />
+            </div>
+
+        @if("ViewBag.IsSuccess" != null){
+        <script type="text/javascript">
+            window.onload = function () {
+                alert("@ViewBag.IsSuccess");
+            };
+
+        </script>
+            }
+        </div>
+    </div>
+
+}
+
+

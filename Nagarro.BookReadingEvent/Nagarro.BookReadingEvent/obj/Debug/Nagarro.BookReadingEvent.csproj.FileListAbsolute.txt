@@ -1,0 +1,342 @@
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Nagarro.BookReadingEvent.dll.config
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Nagarro.BookReadingEvent.dll
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Nagarro.BookReadingEvent.pdb
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\csc.exe
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\csc.exe.config
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\csc.rsp
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\csi.exe
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\csi.exe.config
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\csi.rsp
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\Microsoft.Managed.Core.targets
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\System.AppContext.dll
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\System.Collections.Immutable.dll
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\System.Console.dll
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\System.Globalization.Calendars.dll
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\System.IO.Compression.dll
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\System.IO.FileSystem.dll
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\System.Net.Http.dll
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\System.Net.Sockets.dll
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\System.Reflection.Metadata.dll
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\System.ValueTuple.dll
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\System.Xml.XmlDocument.dll
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\System.Xml.XPath.dll
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\vbc.exe
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\vbc.exe.config
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\vbc.rsp
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\VBCSCompiler.exe
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\VBCSCompiler.exe.config
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Antlr3.Runtime.dll
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\EntityFramework.dll
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\EntityFramework.SqlServer.dll
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.AspNet.Identity.Core.dll
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.Owin.dll
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.Owin.Security.Cookies.dll
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.Owin.Security.dll
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.Owin.Security.Facebook.dll
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.Owin.Security.Google.dll
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.Owin.Security.OAuth.dll
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.Owin.Security.Twitter.dll
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.Web.Infrastructure.dll
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Nagarro.BookReadingEvent.Shared.dll
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Newtonsoft.Json.dll
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Owin.dll
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\PagedList.dll
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\PagedList.Mvc.dll
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\System.Web.Helpers.dll
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\System.Web.Mvc.dll
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\System.Web.Optimization.dll
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\System.Web.Razor.dll
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\System.Web.WebPages.Deployment.dll
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\System.Web.WebPages.dll
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\System.Web.WebPages.Razor.dll
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\WebGrease.dll
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Nagarro.BookReadingEvent.Shared.pdb
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\EntityFramework.xml
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\EntityFramework.SqlServer.xml
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\PagedList.xml
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\PagedList.Mvc.xml
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\System.Web.Helpers.xml
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\System.Web.Mvc.xml
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\System.Web.Optimization.xml
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\System.Web.Razor.xml
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\System.Web.WebPages.xml
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\System.Web.WebPages.Deployment.xml
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\System.Web.WebPages.Razor.xml
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Newtonsoft.Json.xml
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Antlr3.Runtime.pdb
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.AspNet.Identity.Core.xml
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.Owin.xml
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.Owin.Security.xml
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.Owin.Security.Facebook.xml
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.Owin.Security.Cookies.xml
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.Owin.Security.Google.xml
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.Owin.Security.Twitter.xml
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.Owin.Security.OAuth.xml
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\obj\Debug\Nagarro.BookReadingEvent.csprojAssemblyReference.cache
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\obj\Debug\Nagarro.BookReadingEvent.csproj.CoreCompileInputs.cache
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\obj\Debug\Nagarro.BookReadingEvent.csproj.CopyComplete
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\obj\Debug\Nagarro.BookReadingEvent.dll
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\obj\Debug\Nagarro.BookReadingEvent.pdb
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Nagarro.BookReadingEvent.dll.config
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Nagarro.BookReadingEvent.dll
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Nagarro.BookReadingEvent.pdb
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\csc.exe
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\csc.exe.config
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\csc.rsp
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\csi.exe
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\csi.exe.config
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\csi.rsp
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\System.AppContext.dll
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\System.Console.dll
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\System.IO.Compression.dll
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\System.Net.Http.dll
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\System.Net.Sockets.dll
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\System.ValueTuple.dll
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\System.Xml.XPath.dll
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\vbc.exe
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\vbc.exe.config
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\vbc.rsp
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\VBCSCompiler.exe
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Antlr3.Runtime.dll
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\EntityFramework.dll
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\EntityFramework.SqlServer.dll
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.Owin.dll
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.Owin.Security.dll
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Nagarro.BookReadingEvent.Shared.dll
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Newtonsoft.Json.dll
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Owin.dll
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\PagedList.dll
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\PagedList.Mvc.dll
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\System.Web.Helpers.dll
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\System.Web.Mvc.dll
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\System.Web.Optimization.dll
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\System.Web.Razor.dll
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\System.Web.WebPages.Deployment.dll
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\System.Web.WebPages.dll
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\System.Web.WebPages.Razor.dll
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\WebGrease.dll
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Nagarro.BookReadingEvent.Shared.pdb
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\EntityFramework.xml
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\EntityFramework.SqlServer.xml
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\PagedList.xml
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\PagedList.Mvc.xml
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\System.Web.Helpers.xml
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\System.Web.Mvc.xml
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\System.Web.Optimization.xml
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\System.Web.Razor.xml
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\System.Web.WebPages.xml
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\System.Web.WebPages.Deployment.xml
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\System.Web.WebPages.Razor.xml
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Newtonsoft.Json.xml
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Antlr3.Runtime.pdb
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.Owin.xml
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.Owin.Security.xml
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\obj\Debug\Nagarro.BookReadingEvent.csproj.AssemblyReference.cache
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\obj\Debug\Nagarro.BookReadingEvent.csproj.CoreCompileInputs.cache
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\obj\Debug\Nagarro.BookReadingEvent.csproj.CopyComplete
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\obj\Debug\Nagarro.BookReadingEvent.dll
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\obj\Debug\Nagarro.BookReadingEvent.pdb
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Nagarro.BookReadingEvent.dll.config
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Nagarro.BookReadingEvent.dll
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Nagarro.BookReadingEvent.pdb
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\csc.exe
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\csc.exe.config
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\csc.rsp
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\csi.exe
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\csi.exe.config
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\csi.rsp
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\System.AppContext.dll
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\System.Collections.Immutable.dll
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\System.Console.dll
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\System.Globalization.Calendars.dll
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\System.IO.Compression.dll
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\System.IO.FileSystem.dll
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\System.Net.Http.dll
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\System.Net.Sockets.dll
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\System.Reflection.Metadata.dll
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\System.ValueTuple.dll
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\System.Xml.XPath.dll
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\vbc.exe
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\vbc.exe.config
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\vbc.rsp
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\VBCSCompiler.exe
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\roslyn\VBCSCompiler.exe.config
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Antlr3.Runtime.dll
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\EntityFramework.dll
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\EntityFramework.SqlServer.dll
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.Owin.dll
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.Owin.Security.dll
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.Owin.Security.Google.dll
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.Web.Infrastructure.dll
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Nagarro.BookReadingEvent.Shared.dll
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Newtonsoft.Json.dll
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Owin.dll
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\PagedList.dll
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\PagedList.Mvc.dll
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\System.Web.Helpers.dll
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\System.Web.Mvc.dll
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\System.Web.Optimization.dll
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\System.Web.Razor.dll
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\System.Web.WebPages.Deployment.dll
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\System.Web.WebPages.dll
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\System.Web.WebPages.Razor.dll
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\WebGrease.dll
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Nagarro.BookReadingEvent.Shared.pdb
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\EntityFramework.xml
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\EntityFramework.SqlServer.xml
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\PagedList.xml
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\PagedList.Mvc.xml
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\System.Web.Helpers.xml
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\System.Web.Mvc.xml
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\System.Web.Optimization.xml
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\System.Web.Razor.xml
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\System.Web.WebPages.xml
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\System.Web.WebPages.Deployment.xml
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\System.Web.WebPages.Razor.xml
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Newtonsoft.Json.xml
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Antlr3.Runtime.pdb
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.Owin.xml
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.Owin.Security.xml
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.Owin.Security.Google.xml
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\obj\Debug\Nagarro.BookReadingEvent.csproj.AssemblyReference.cache
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\obj\Debug\Nagarro.BookReadingEvent.csproj.CoreCompileInputs.cache
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\obj\Debug\Nagarro.BookReadingEvent.csproj.CopyComplete
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\obj\Debug\Nagarro.BookReadingEvent.dll
+C:\Assignment\sachin-saharan\C#_Assignment\Assignment 5\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent\obj\Debug\Nagarro.BookReadingEvent.pdb

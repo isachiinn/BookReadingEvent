@@ -1,0 +1,152 @@
+﻿@using PagedList.Mvc
+@model  PagedList.IPagedList<Nagarro.BookReadingEvent.Shared.EventDTO>
+@using Microsoft.AspNet.Identity;
+<div class="jumbotron text-center">
+    <h2 style="color:sandybrown"><b>Welcome To Book Reading Events </b></h2>
+</div>
+
+
+
+@using (Html.BeginForm())
+{
+    <center>
+        <h2>Book Reading Events</h2>
+        <div>
+            @if (User.Identity.GetUserName() == "myadmin@bookevents.com")
+            {
+                <table class="table table-bordered table-responsive table-hover">
+                    <thead>
+                        <tr class="warning">
+                            <th>Event Title</th>
+                            <th>Event Date</th>
+                            <th>Event Start Time</th>
+                            <th>Event Duration</th>
+                            <th>Description</th>
+                            <th>Other Details</th>
+                            <th>Invitations</th>
+                            <th>Edit/Delete</th>
+                        </tr>
+                    </thead>
+
+                    @for (int i = 0; i < Model.Count; i++)
+                    {
+                        if (Model[i].Description == null)
+                        {
+                            Model[i].Description = "NONE";
+                        }
+                        if (Model[i].OtherDetails == null)
+                        {
+                            Model[i].OtherDetails = "NONE";
+                        }
+                        if (Model[i].Invitations == null)
+                        {
+                            Model[i].Invitations = "NONE";
+                        }
+
+                        if (Model[i].Date < DateTime.Today)
+                        {
+                            <tr class="danger">
+                                <td>@Html.ActionLink(Model[i].Title, "Details", new { EventId = Model[i].Id }) </td>
+                                <td>@(Model[i].Date.Day + "-" + Model[i].Date.Month + "-" + Model[i].Date.Year)</td>
+                                <td>@Model[i].StartTime</td>
+                                <td>@Model[i].Duration</td>
+                                <td>@Model[i].Description</td>
+                                <td>@Model[i].OtherDetails</td>
+                                <td>@Model[i].Invitations</td>
+                                <td>
+                                    @Html.ActionLink("Delete", "DeleteEvent", new { EventId = Model[i].Id })
+                                </td>
+                            </tr>
+                        }
+                        else
+                        {
+                            <tr class="success">
+                                <td>@Html.ActionLink(Model[i].Title, "Details", new { EventId = Model[i].Id }) </td>
+                                <td>@(Model[i].Date.Day + "-" + Model[i].Date.Month + "-" + Model[i].Date.Year)</td>
+                                <td>@Model[i].StartTime</td>
+                                <td>@Model[i].Duration</td>
+                                <td>@Model[i].Description</td>
+                                <td>@Model[i].OtherDetails</td>
+                                <td>@Model[i].Invitations</td>
+                                <td>
+                                    @Html.ActionLink("Edit", "UpdateEvent", new { EventId = Model[i].Id })
+                                    @Html.ActionLink("Delete", "DeleteEvent", new { EventId = Model[i].Id })
+                                </td>
+                            </tr>
+
+                        }
+
+                    }
+                </table>
+            }
+            else
+            {
+                <table class="table table-bordered table-responsive table-hover">
+                    <thead>
+                        <tr class="warning">
+                            <th>Event Title</th>
+                            <th>Event Date</th>
+                            <th>Event Start Time</th>
+                            <th>Event Duration</th>
+                            <th>Description</th>
+                            <th>Other Details</th>
+
+                        </tr>
+                    </thead>
+
+                    @for (int i = 0; i < Model.Count; i++)
+                    {
+                        if (Model[i].Description == null)
+                        {
+                            Model[i].Description = "NONE";
+                        }
+                        if (Model[i].OtherDetails == null)
+                        {
+                            Model[i].OtherDetails = "NONE";
+                        }
+
+                        if (Model[i].Type == "public")
+                        {
+                            if (Model[i].Date < DateTime.Today)
+                            {
+                                <tr class="danger">
+                                    <td>@Html.ActionLink(Model[i].Title, "Details", new { EventId = Model[i].Id }) </td>
+                                    <td>@(Model[i].Date.Day + "-" + Model[i].Date.Month + "-" + Model[i].Date.Year)</td>
+                                    <td>@Model[i].StartTime</td>
+                                    <td>@Model[i].Duration</td>
+                                    <td>@Model[i].Description</td>
+                                    <td>@Model[i].OtherDetails</td>
+
+                                </tr>
+                            }
+                            else
+                            {
+                                <tr class="success">
+                                    <td>@Html.ActionLink(Model[i].Title, "Details", new { EventId = Model[i].Id }) </td>
+                                    <td>@(Model[i].Date.Day + "-" + Model[i].Date.Month + "-" + Model[i].Date.Year)</td>
+                                    <td>@Model[i].StartTime</td>
+                                    <td>@Model[i].Duration</td>
+                                    <td>@Model[i].Description</td>
+                                    <td>@Model[i].OtherDetails</td>
+
+
+                                </tr>
+
+                            }
+                        }
+
+
+                     }
+                </table>
+            }
+        </div>
+    </center>
+    <div>
+        <p></p>
+        <p></p>
+        <div>
+            Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber)
+            of @Model.PageCount   @Html.PagedListPager(Model, page => Url.Action("Index", new { page }))
+        </div>
+    </div>
+}

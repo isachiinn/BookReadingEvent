@@ -1,0 +1,12 @@
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent.Shared\bin\Debug\Nagarro.BookReadingEvent.Shared.dll
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent.Shared\bin\Debug\Nagarro.BookReadingEvent.Shared.pdb
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent.Shared\obj\Debug\Nagarro.BookReadingEvent.Shared.csproj.CoreCompileInputs.cache
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent.Shared\obj\Debug\Nagarro.BookReadingEvent.Shared.dll
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent.Shared\obj\Debug\Nagarro.BookReadingEvent.Shared.pdb
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent.Shared\obj\Debug\Nagarro.BookReadingEvent.Shared.csprojAssemblyReference.cache
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent.Shared\bin\Debug\Nagarro.BookReadingEvent.Shared.dll
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent.Shared\bin\Debug\Nagarro.BookReadingEvent.Shared.pdb
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent.Shared\obj\Debug\Nagarro.BookReadingEvent.Shared.csproj.AssemblyReference.cache
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent.Shared\obj\Debug\Nagarro.BookReadingEvent.Shared.csproj.CoreCompileInputs.cache
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent.Shared\obj\Debug\Nagarro.BookReadingEvent.Shared.dll
+C:\Users\sachinsaharan\Downloads\MVC (1)\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent.Shared\obj\Debug\Nagarro.BookReadingEvent.Shared.pdb

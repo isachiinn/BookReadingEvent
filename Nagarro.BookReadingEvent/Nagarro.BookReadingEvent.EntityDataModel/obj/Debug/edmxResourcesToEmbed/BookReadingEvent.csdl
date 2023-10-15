@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BookReadingEventModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Address">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Venue" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="City" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="State" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Events" Relationship="Self.FK_Event_Address" FromRole="Address" ToRole="Event" />
+  </EntityType>
+  <EntityType Name="Address1">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <NavigationProperty Name="Events" Relationship="Self.FK_BookEvent_BookAddress" FromRole="Addresses" ToRole="Events" />
+  </EntityType>
+  <EntityType Name="BookingEnrollment">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Username" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="EventsId" Type="Int32" />
+    <NavigationProperty Name="Event" Relationship="Self.FK_BookingEnrollment_Event" FromRole="BookingEnrollment" ToRole="Event" />
+  </EntityType>
+  <EntityType Name="Comment">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Comment1" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="DatePosted" Type="DateTime" Precision="3" />
+    <Property Name="Username" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="EventId" Type="Int32" />
+    <NavigationProperty Name="Event" Relationship="Self.FK_Comment_Event" FromRole="Comment" ToRole="Event" />
+  </EntityType>
+  <EntityType Name="Comment1">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Comment11" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="DatePosted" Type="DateTime" Precision="3" />
+    <Property Name="Username" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="EventId" Type="Int32" />
+    <NavigationProperty Name="Event" Relationship="Self.FK_BookComment_BookEvent" FromRole="Comments" ToRole="Events" />
+  </EntityType>
+  <EntityType Name="Event">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Title" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="AddressId" Type="Int32" Nullable="false" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="StartTime" Type="Time" Nullable="false" Precision="7" />
+    <Property Name="Type" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Duration" Type="Int32" />
+    <Property Name="Description" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="OtherDetails" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="Invitations" Type="String" MaxLength="5000" FixedLength="false" Unicode="false" />
+    <Property Name="Creator" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Address" Relationship="Self.FK_Event_Address" FromRole="Event" ToRole="Address" />
+    <NavigationProperty Name="BookingEnrollments" Relationship="Self.FK_BookingEnrollment_Event" FromRole="Event" ToRole="BookingEnrollment" />
+    <NavigationProperty Name="Comments" Relationship="Self.FK_Comment_Event" FromRole="Event" ToRole="Comment" />
+  </EntityType>
+  <EntityType Name="Event1">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Title" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="AddressId" Type="Int32" Nullable="false" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="StartTime" Type="Time" Nullable="false" Precision="7" />
+    <Property Name="Type" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Duration" Type="Int32" />
+    <Property Name="Description" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="OtherDetails" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="Invitations" Type="String" MaxLength="5000" FixedLength="false" Unicode="false" />
+    <Property Name="Creator" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Address" Relationship="Self.FK_BookEvent_BookAddress" FromRole="Events" ToRole="Addresses" />
+    <NavigationProperty Name="Comments" Relationship="Self.FK_BookComment_BookEvent" FromRole="Events" ToRole="Comments" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Email" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Username" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Type" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <Association Name="FK_Event_Address">
+    <End Role="Address" Type="Self.Address" Multiplicity="1" />
+    <End Role="Event" Type="Self.Event" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Address">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Event">
+        <PropertyRef Name="AddressId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_BookEvent_BookAddress">
+    <End Role="Addresses" Type="Self.Address1" Multiplicity="1" />
+    <End Role="Events" Type="Self.Event1" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Addresses">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Events">
+        <PropertyRef Name="AddressId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_BookingEnrollment_Event">
+    <End Role="Event" Type="Self.Event" Multiplicity="0..1" />
+    <End Role="BookingEnrollment" Type="Self.BookingEnrollment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Event">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="BookingEnrollment">
+        <PropertyRef Name="EventsId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Comment_Event">
+    <End Role="Event" Type="Self.Event" Multiplicity="0..1" />
+    <End Role="Comment" Type="Self.Comment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Event">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Comment">
+        <PropertyRef Name="EventId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_BookComment_BookEvent">
+    <End Role="Events" Type="Self.Event1" Multiplicity="0..1" />
+    <End Role="Comments" Type="Self.Comment1" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Events">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Comments">
+        <PropertyRef Name="EventId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="BookReadingEventEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Addresses" EntityType="Self.Address" />
+    <EntitySet Name="Addresses1" EntityType="Self.Address1" />
+    <EntitySet Name="BookingEnrollments" EntityType="Self.BookingEnrollment" />
+    <EntitySet Name="Comments" EntityType="Self.Comment" />
+    <EntitySet Name="Comments1" EntityType="Self.Comment1" />
+    <EntitySet Name="Events" EntityType="Self.Event" />
+    <EntitySet Name="Events1" EntityType="Self.Event1" />
+    <EntitySet Name="Users" EntityType="Self.User" />
+    <AssociationSet Name="FK_Event_Address" Association="Self.FK_Event_Address">
+      <End Role="Address" EntitySet="Addresses" />
+      <End Role="Event" EntitySet="Events" />
+    </AssociationSet>
+    <AssociationSet Name="FK_BookEvent_BookAddress" Association="Self.FK_BookEvent_BookAddress">
+      <End Role="Addresses" EntitySet="Addresses1" />
+      <End Role="Events" EntitySet="Events1" />
+    </AssociationSet>
+    <AssociationSet Name="FK_BookingEnrollment_Event" Association="Self.FK_BookingEnrollment_Event">
+      <End Role="Event" EntitySet="Events" />
+      <End Role="BookingEnrollment" EntitySet="BookingEnrollments" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Comment_Event" Association="Self.FK_Comment_Event">
+      <End Role="Event" EntitySet="Events" />
+      <End Role="Comment" EntitySet="Comments" />
+    </AssociationSet>
+    <AssociationSet Name="FK_BookComment_BookEvent" Association="Self.FK_BookComment_BookEvent">
+      <End Role="Events" EntitySet="Events1" />
+      <End Role="Comments" EntitySet="Comments1" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

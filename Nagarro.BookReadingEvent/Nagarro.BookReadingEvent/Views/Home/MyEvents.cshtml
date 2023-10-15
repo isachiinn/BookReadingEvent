@@ -1,0 +1,83 @@
+﻿@model Nagarro.BookReadingEvent.Models.EventViewModel
+@using Microsoft.AspNet.Identity
+
+@{
+    ViewBag.Title = "MyEvents";
+}
+
+<h2>My Events</h2>
+
+<p>
+    @Html.ActionLink("Create New", "CreateEvent")
+</p>
+<table class="table table-bordered table-responsive table-hover">
+    <thead>
+        <tr class="warning">
+            <th>Event Title</th>
+            <th>Event Date</th>
+            <th>Event Start Time</th>
+            <th>Event Duration</th>
+            <th>Description</th>
+            <th>Other Details</th>
+            <th>Invitations</th>
+            <th>Edit/Delete</th>
+        </tr>
+    </thead>
+
+
+    @foreach (var i in Model.Events)
+    {
+        if (i.Description == null)
+        {
+            i.Description = "NONE";
+        }
+        if (i.OtherDetails == null)
+        {
+            i.OtherDetails = "NONE";
+        }
+        if (i.Creator == User.Identity.GetUserName())
+        {
+            if (i.Date < DateTime.Today)
+            {
+
+                <tr class="danger">
+
+                    <td>@Html.ActionLink(i.Title, "Details", new { EventId = i.Id }) </td>
+                    <td>@(i.Date.Day + "-" + i.Date.Month + "-" + i.Date.Year)</td>
+                    <td>@i.StartTime</td>
+                    <td>@i.Duration</td>
+                    <td>@i.Description</td>
+                    <td>@i.OtherDetails</td>
+                    <td>@i.Invitations</td>
+                    <td>
+                        @Html.ActionLink("Delete", "DeleteEvent", new { EventId = i.Id })
+                    </td>
+                </tr>
+            }
+            else
+            {
+                <tr class="success">
+                    <td>@Html.ActionLink(i.Title, "Details", new { EventId = i.Id }) </td>
+                    <td>@(i.Date.Day + "-" + i.Date.Month + "-" + i.Date.Year)</td>
+                    <td>@i.StartTime</td>
+                    <td>@i.Duration</td>
+                    <td>@i.Description</td>
+                    <td>@i.OtherDetails</td>
+                    <td>@i.Invitations</td>
+                    <td>
+                        @Html.ActionLink("Edit", "UpdateEvent", new { EventId = i.Id })
+                        @Html.ActionLink("Delete", "DeleteEvent", new { EventId = i.Id })
+                    </td>
+                </tr>
+            }
+
+        }
+
+
+    }
+
+</table>
+
+
+
+

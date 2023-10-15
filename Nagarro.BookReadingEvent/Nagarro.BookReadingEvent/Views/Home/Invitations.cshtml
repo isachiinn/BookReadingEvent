@@ -1,0 +1,61 @@
+﻿@model Nagarro.BookReadingEvent.Models.EventViewModel
+@using Microsoft.AspNet.Identity
+@{
+    ViewBag.Title = "Invitations";
+}
+
+<h2>Invitations</h2>
+
+<table class="table table-bordered table-responsive table-hover">
+    <thead>
+        <tr class="warning">
+            <th>Event Title</th>
+            <th>Event Date</th>
+            <th>Event Start Time</th>
+            <th>Event Duration</th>
+            <th>Description</th>
+            <th>Other Details</th>
+        </tr>
+    </thead>
+
+
+    @foreach (var i in Model.Events)
+    {
+        if (i.Description == null)
+        {
+            i.Description = "NONE";
+        }
+        if (i.OtherDetails == null)
+        {
+            i.OtherDetails = "NONE";
+        }
+        if (i.Invitations == null)
+        {
+            continue;
+        }
+        else
+        {
+            string[] allInvites = i.Invitations.Split(',');
+            foreach (string invite in allInvites)
+            {
+                if (invite.Trim() == User.Identity.GetUserName())
+                {
+                    <tr class="info">
+
+                        <td>@Html.ActionLink(i.Title, "Details", new { EventId = i.Id }) </td>
+                        <td>@i.Date</td>
+                        <td>@i.StartTime</td>
+                        <td>@i.Duration</td>
+                        <td>@i.Description</td>
+                        <td>@i.OtherDetails</td>
+                    </tr>
+
+                }
+
+            }
+
+        }
+
+    }
+
+</table>

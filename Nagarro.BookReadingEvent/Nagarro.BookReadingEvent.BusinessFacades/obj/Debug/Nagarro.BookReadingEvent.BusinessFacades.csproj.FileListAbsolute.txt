@@ -1,0 +1,11 @@
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent.BusinessFacades\bin\Debug\Nagarro.BookReadingEvent.BusinessFacades.dll
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent.BusinessFacades\bin\Debug\Nagarro.BookReadingEvent.BusinessFacades.pdb
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent.BusinessFacades\bin\Debug\FluentValidation.dll
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent.BusinessFacades\bin\Debug\Nagarro.BookReadingEvent.Shared.dll
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent.BusinessFacades\bin\Debug\Nagarro.BookReadingEvent.Shared.pdb
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent.BusinessFacades\bin\Debug\FluentValidation.xml
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent.BusinessFacades\obj\Debug\Nagarro.BookReadingEvent.BusinessFacades.csprojAssemblyReference.cache
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent.BusinessFacades\obj\Debug\Nagarro.BookReadingEvent.BusinessFacades.csproj.CoreCompileInputs.cache
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent.BusinessFacades\obj\Debug\Nagarro.BookReadingEvent.BusinessFacades.csproj.CopyComplete
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent.BusinessFacades\obj\Debug\Nagarro.BookReadingEvent.BusinessFacades.dll
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent.BusinessFacades\obj\Debug\Nagarro.BookReadingEvent.BusinessFacades.pdb

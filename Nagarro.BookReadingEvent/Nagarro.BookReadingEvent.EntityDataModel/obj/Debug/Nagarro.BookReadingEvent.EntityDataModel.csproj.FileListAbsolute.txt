@@ -1,0 +1,16 @@
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent.EntityDataModel\bin\Debug\Nagarro.BookReadingEvent.EntityDataModel.dll.config
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent.EntityDataModel\bin\Debug\Nagarro.BookReadingEvent.EntityDataModel.dll
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent.EntityDataModel\bin\Debug\Nagarro.BookReadingEvent.EntityDataModel.pdb
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent.EntityDataModel\bin\Debug\EntityFramework.dll
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent.EntityDataModel\bin\Debug\EntityFramework.SqlServer.dll
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent.EntityDataModel\bin\Debug\FluentValidation.dll
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent.EntityDataModel\bin\Debug\Nagarro.BookReadingEvent.Shared.dll
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent.EntityDataModel\bin\Debug\Nagarro.BookReadingEvent.Shared.pdb
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent.EntityDataModel\bin\Debug\EntityFramework.xml
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent.EntityDataModel\bin\Debug\EntityFramework.SqlServer.xml
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent.EntityDataModel\bin\Debug\FluentValidation.xml
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent.EntityDataModel\obj\Debug\Nagarro.BookReadingEvent.EntityDataModel.csprojAssemblyReference.cache
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent.EntityDataModel\obj\Debug\Nagarro.BookReadingEvent.EntityDataModel.csproj.CoreCompileInputs.cache
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent.EntityDataModel\obj\Debug\Nagarro.BookReadingEvent.EntityDataModel.csproj.CopyComplete
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent.EntityDataModel\obj\Debug\Nagarro.BookReadingEvent.EntityDataModel.dll
+D:\MVC\Nagarro.BookReadingEvent\Nagarro.BookReadingEvent.EntityDataModel\obj\Debug\Nagarro.BookReadingEvent.EntityDataModel.pdb

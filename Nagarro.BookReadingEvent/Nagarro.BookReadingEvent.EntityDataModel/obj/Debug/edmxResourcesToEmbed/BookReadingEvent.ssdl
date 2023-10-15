@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BookReadingEventModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="BookReadingEventModelStoreContainer">
+    <EntitySet Name="Addresses" EntityType="BookReadingEventModel.Store.Addresses" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Addresses1" EntityType="BookReadingEventModel.Store.Addresses1" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="BookingEnrollments" EntityType="BookReadingEventModel.Store.BookingEnrollments" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Comments" EntityType="BookReadingEventModel.Store.Comments" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Comments1" EntityType="BookReadingEventModel.Store.Comments1" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Events" EntityType="BookReadingEventModel.Store.Events" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Events1" EntityType="BookReadingEventModel.Store.Events1" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Users" EntityType="BookReadingEventModel.Store.Users" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_Event_Address" Association="BookReadingEventModel.Store.FK_Event_Address">
+      <End Role="Address" EntitySet="Addresses" />
+      <End Role="Event" EntitySet="Events" />
+    </AssociationSet>
+    <AssociationSet Name="FK_BookEvent_BookAddress" Association="BookReadingEventModel.Store.FK_BookEvent_BookAddress">
+      <End Role="Addresses" EntitySet="Addresses1" />
+      <End Role="Events" EntitySet="Events1" />
+    </AssociationSet>
+    <AssociationSet Name="FK_BookingEnrollment_Event" Association="BookReadingEventModel.Store.FK_BookingEnrollment_Event">
+      <End Role="Event" EntitySet="Events" />
+      <End Role="BookingEnrollment" EntitySet="BookingEnrollments" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Comment_Event" Association="BookReadingEventModel.Store.FK_Comment_Event">
+      <End Role="Event" EntitySet="Events" />
+      <End Role="Comment" EntitySet="Comments" />
+    </AssociationSet>
+    <AssociationSet Name="FK_BookComment_BookEvent" Association="BookReadingEventModel.Store.FK_BookComment_BookEvent">
+      <End Role="Events" EntitySet="Events1" />
+      <End Role="Comments" EntitySet="Comments1" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Addresses">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Venue" Type="varchar(max)" Nullable="false" />
+    <Property Name="City" Type="varchar(max)" Nullable="false" />
+    <Property Name="State" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Addresses1">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+  </EntityType>
+  <EntityType Name="BookingEnrollments">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Username" Type="varchar(max)" Nullable="true" />
+    <Property Name="EventsId" Type="int" Nullable="true" />
+  </EntityType>
+  <EntityType Name="Comments">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Comment1" Type="varchar(max)" Nullable="false" />
+    <Property Name="DatePosted" Type="datetime" Nullable="true" />
+    <Property Name="Username" Type="varchar(max)" Nullable="true" />
+    <Property Name="EventId" Type="int" Nullable="true" />
+  </EntityType>
+  <EntityType Name="Comments1">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Comment11" Type="varchar(max)" Nullable="false" />
+    <Property Name="DatePosted" Type="datetime" Nullable="true" />
+    <Property Name="Username" Type="varchar(max)" Nullable="true" />
+    <Property Name="EventId" Type="int" Nullable="true" />
+  </EntityType>
+  <EntityType Name="Events">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Title" Type="varchar(max)" Nullable="false" />
+    <Property Name="AddressId" Type="int" Nullable="false" />
+    <Property Name="Date" Type="datetime" Nullable="false" />
+    <Property Name="StartTime" Type="time" Nullable="false" Precision="7" />
+    <Property Name="Type" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="Duration" Type="int" Nullable="true" />
+    <Property Name="Description" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="OtherDetails" Type="varchar" Nullable="true" MaxLength="500" />
+    <Property Name="Invitations" Type="varchar" Nullable="true" MaxLength="5000" />
+    <Property Name="Creator" Type="varchar(max)" Nullable="true" />
+  </EntityType>
+  <EntityType Name="Events1">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Title" Type="varchar(max)" Nullable="false" />
+    <Property Name="AddressId" Type="int" Nullable="false" />
+    <Property Name="Date" Type="datetime" Nullable="false" />
+    <Property Name="StartTime" Type="time" Nullable="false" Precision="7" />
+    <Property Name="Type" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="Duration" Type="int" Nullable="true" />
+    <Property Name="Description" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="OtherDetails" Type="varchar" Nullable="true" MaxLength="500" />
+    <Property Name="Invitations" Type="varchar" Nullable="true" MaxLength="5000" />
+    <Property Name="Creator" Type="varchar(max)" Nullable="true" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Email" Type="varchar(max)" Nullable="false" />
+    <Property Name="Password" Type="varchar(max)" Nullable="false" />
+    <Property Name="Username" Type="varchar(max)" Nullable="false" />
+    <Property Name="Type" Type="varchar(max)" Nullable="true" />
+  </EntityType>
+  <Association Name="FK_Event_Address">
+    <End Role="Address" Type="BookReadingEventModel.Store.Addresses" Multiplicity="1" />
+    <End Role="Event" Type="BookReadingEventModel.Store.Events" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Address">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Event">
+        <PropertyRef Name="AddressId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_BookEvent_BookAddress">
+    <End Role="Addresses" Type="BookReadingEventModel.Store.Addresses1" Multiplicity="1" />
+    <End Role="Events" Type="BookReadingEventModel.Store.Events1" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Addresses">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Events">
+        <PropertyRef Name="AddressId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_BookingEnrollment_Event">
+    <End Role="Event" Type="BookReadingEventModel.Store.Events" Multiplicity="0..1" />
+    <End Role="BookingEnrollment" Type="BookReadingEventModel.Store.BookingEnrollments" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Event">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="BookingEnrollment">
+        <PropertyRef Name="EventsId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Comment_Event">
+    <End Role="Event" Type="BookReadingEventModel.Store.Events" Multiplicity="0..1" />
+    <End Role="Comment" Type="BookReadingEventModel.Store.Comments" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Event">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Comment">
+        <PropertyRef Name="EventId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_BookComment_BookEvent">
+    <End Role="Events" Type="BookReadingEventModel.Store.Events1" Multiplicity="0..1" />
+    <End Role="Comments" Type="BookReadingEventModel.Store.Comments1" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Events">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Comments">
+        <PropertyRef Name="EventId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>
